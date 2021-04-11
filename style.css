@@ -1,10 +1,14 @@
 input[type=text] {
-    width: 10%;
+    width: 15%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    flex: auto;
+    flex: content;
   }
   body{
-      background-color: lightblue;
+      background-color:lightblue;
+  }
+  .btn{
+      width:10%;
+      border: 1px solid blue;
   }
