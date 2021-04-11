@@ -26,7 +26,7 @@ Enter your date, month and year of birth and press submit. Entering wrong detail
 3. Git
 4. JS
 ## Live Site
-View [live] (maalim18.github.io/akan-names)
+View [live](https://maalim18.github.io/akan-names/)
 
 ## Licence
 This project is under the [MIT](LICENSE) licence
