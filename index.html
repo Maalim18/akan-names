@@ -8,13 +8,50 @@
     <title>Akan names</title>
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="card-title">
-                <h1>Akan Naming culture</h1>
-            </div>
+  <nav class="description" >
+    <p id="description">
+        This application finds out your Akan Name based on your birthday and Gender. Akan names are derived from Ghanian culture. 
+        Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. 
+        Fill the form below and submit to find your Akan Name
+    </p>
+</nav>
+<hr><hr>
+<nav class = "form">
+    <form id ="brithday">
+        <div class="date">
+            <input class="form-control" type="text" id="day" placeholder="Enter the date" aria-label="">
         </div>
-    </div>
+        <div class="date">
+            <input class="form-control" type="text" id="month" placeholder="Enter the month" aria-label="">
+        </div>
+        <div class="date">
+            <input class="form-control" type="text" id="year" placeholder="Enter the year" aria-label="">
+        </div>         
+        <div class="gender">
+            <input class="check-gender" type="radio" name="radio" id="radio1">
+            <label class="check-label" for="radio1" value="Male">
+              Male
+            </label>
+          </div>
+          <div class="gender">
+            <input class="check-gender" type="radio" name="radio" id="radio2" checked>
+            <label class="check-label" for="radio2" value="Female">
+             Female
+            </label>
+          </div>
+          <div class="submit">
+            <button type="button" class="btn btn-primary mb-3" onclick="calculateBirthday()">Calculate Birthday</button>
+          </div>
+
+    </form>
+    
+
+</nav>
+<nav id = "output-nav">
+    <p id ="output"> 
+        
+    </p>
+</nav>
     <script src="js/script.js"></script>
 </body>
 </html>
